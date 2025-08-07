@@ -185,5 +185,5 @@ python_students_avg = calculate_avg_hw_grade([student1, student2], 'Python')
 python_lecturers_avg = calculate_avg_lecture_grade([lecturer1, lecturer2], 'Python')
 
 print("\nСредние оценки по курсу Python:")
-print(f"Средняя оценка студентов за домашние задания: {python_students_avg:.1f}")
+print(f"Средняя оценка студентов за домашние задания: {python_students_avg:.1f}")#Округление до одного знака после запятой
 print(f"Средняя оценка лекторов за лекции: {python_lecturers_avg:.1f}")
